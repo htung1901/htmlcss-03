@@ -54,7 +54,7 @@ a {
   font-size: 5rem;
   font-weight: 600;
   line-height: 1.2; /* 120% */
-  letter-spacing: -0.02;
+  letter-spacing: -1px;
 }
 
 .section-desc {
@@ -62,7 +62,7 @@ a {
   color: #575f66;
   font-size: 1.8rem;
   font-weight: 300;
-  line-height: 1.67; /* 166.667% */
+  line-height: 1.66667; /* 166.667% */
 }
 
 /* Header */
@@ -458,7 +458,7 @@ a {
   max-width: 100%;
   height: 290px;
   object-fit: cover;
-  transition: .25s;
+  transition: 0.25s;
 }
 
 .member-item__name {
@@ -507,3 +507,50 @@ a {
 .member__control-next-icon {
   rotate: 180deg;
 }
+
+/* Install app */
+.install {
+  margin-top: 180px;
+}
+
+.install__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+  border-radius: 4px;
+  background: #2e80ce;
+}
+
+.install__img {
+  display: block;
+  margin-top: -95px;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+}
+
+.install__content {
+  max-width: 586px;
+}
+
+.install__heading,
+.install__desc {
+  color: #fff;
+}
+
+.install__heading {
+  max-width: 489px;
+}
+
+.install__row {
+  display: flex;
+  column-gap: 28px;
+  margin-top: 38px;
+}
+
+
+
+
+
+
